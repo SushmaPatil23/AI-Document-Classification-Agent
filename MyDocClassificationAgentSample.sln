@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyDocClassificationAgentSample", "MyDocClassificationAgentSample", "{D8E76B69-89D6-C779-FDC1-7887FE5E15D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agent", "MyDocClassificationAgentSample\Agent\Agent.csproj", "{81E5B989-4141-4C32-9D0D-CCC1AF80FB43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classifier", "MyDocClassificationAgentSample\Classifier\Classifier.csproj", "{FE9F1983-84F3-4B36-82D5-F2F0E9C65E42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{2B4F3E5A-C038-42DD-B14A-110D33C67BA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{0C1CAB38-E822-42B6-9723-3937E9884FA9}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\MediaReleaseForm Template Sneha_Mallepalli.pdf = Documentation\MediaReleaseForm Template Sneha_Mallepalli.pdf
+		Documentation\MediaReleaseForm Template Suhma_Prabhugowda_Patil.pdf = Documentation\MediaReleaseForm Template Suhma_Prabhugowda_Patil.pdf
+		Documentation\ML-25-26-02-AI-Document-Classification-Agent-PlugIn-Paper-Team_404.docx = Documentation\ML-25-26-02-AI-Document-Classification-Agent-PlugIn-Paper-Team_404.docx
+		Documentation\ML-25-26-02-AI-Document-Classification-Agent-PlugIn-PPT-Team_404.pptx = Documentation\ML-25-26-02-AI-Document-Classification-Agent-PlugIn-PPT-Team_404.pptx
+		Documentation\ML-25-26-02-AI-Document-Classification-Agent-PlugIn-Team_404.mp4 = Documentation\ML-25-26-02-AI-Document-Classification-Agent-PlugIn-Team_404.mp4
+		Documentation\README.md = Documentation\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Images\DocumentProcessingPipeline.png = Documentation\Images\DocumentProcessingPipeline.png
+		Documentation\Images\Modules.png = Documentation\Images\Modules.png
+		Documentation\Images\SampleOutput.png = Documentation\Images\SampleOutput.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81E5B989-4141-4C32-9D0D-CCC1AF80FB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E5B989-4141-4C32-9D0D-CCC1AF80FB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E5B989-4141-4C32-9D0D-CCC1AF80FB43}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{81E5B989-4141-4C32-9D0D-CCC1AF80FB43}.Debug|x64.Build.0 = Debug|Any CPU
+		{81E5B989-4141-4C32-9D0D-CCC1AF80FB43}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{81E5B989-4141-4C32-9D0D-CCC1AF80FB43}.Debug|x86.Build.0 = Debug|Any CPU
+		{81E5B989-4141-4C32-9D0D-CCC1AF80FB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E5B989-4141-4C32-9D0D-CCC1AF80FB43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81E5B989-4141-4C32-9D0D-CCC1AF80FB43}.Release|x64.ActiveCfg = Release|Any CPU
+		{81E5B989-4141-4C32-9D0D-CCC1AF80FB43}.Release|x64.Build.0 = Release|Any CPU
+		{81E5B989-4141-4C32-9D0D-CCC1AF80FB43}.Release|x86.ActiveCfg = Release|Any CPU
+		{81E5B989-4141-4C32-9D0D-CCC1AF80FB43}.Release|x86.Build.0 = Release|Any CPU
+		{FE9F1983-84F3-4B36-82D5-F2F0E9C65E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9F1983-84F3-4B36-82D5-F2F0E9C65E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9F1983-84F3-4B36-82D5-F2F0E9C65E42}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FE9F1983-84F3-4B36-82D5-F2F0E9C65E42}.Debug|x64.Build.0 = Debug|Any CPU
+		{FE9F1983-84F3-4B36-82D5-F2F0E9C65E42}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FE9F1983-84F3-4B36-82D5-F2F0E9C65E42}.Debug|x86.Build.0 = Debug|Any CPU
+		{FE9F1983-84F3-4B36-82D5-F2F0E9C65E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9F1983-84F3-4B36-82D5-F2F0E9C65E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE9F1983-84F3-4B36-82D5-F2F0E9C65E42}.Release|x64.ActiveCfg = Release|Any CPU
+		{FE9F1983-84F3-4B36-82D5-F2F0E9C65E42}.Release|x64.Build.0 = Release|Any CPU
+		{FE9F1983-84F3-4B36-82D5-F2F0E9C65E42}.Release|x86.ActiveCfg = Release|Any CPU
+		{FE9F1983-84F3-4B36-82D5-F2F0E9C65E42}.Release|x86.Build.0 = Release|Any CPU
+		{2B4F3E5A-C038-42DD-B14A-110D33C67BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B4F3E5A-C038-42DD-B14A-110D33C67BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B4F3E5A-C038-42DD-B14A-110D33C67BA6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2B4F3E5A-C038-42DD-B14A-110D33C67BA6}.Debug|x64.Build.0 = Debug|Any CPU
+		{2B4F3E5A-C038-42DD-B14A-110D33C67BA6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2B4F3E5A-C038-42DD-B14A-110D33C67BA6}.Debug|x86.Build.0 = Debug|Any CPU
+		{2B4F3E5A-C038-42DD-B14A-110D33C67BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B4F3E5A-C038-42DD-B14A-110D33C67BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B4F3E5A-C038-42DD-B14A-110D33C67BA6}.Release|x64.ActiveCfg = Release|Any CPU
+		{2B4F3E5A-C038-42DD-B14A-110D33C67BA6}.Release|x64.Build.0 = Release|Any CPU
+		{2B4F3E5A-C038-42DD-B14A-110D33C67BA6}.Release|x86.ActiveCfg = Release|Any CPU
+		{2B4F3E5A-C038-42DD-B14A-110D33C67BA6}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81E5B989-4141-4C32-9D0D-CCC1AF80FB43} = {D8E76B69-89D6-C779-FDC1-7887FE5E15D6}
+		{FE9F1983-84F3-4B36-82D5-F2F0E9C65E42} = {D8E76B69-89D6-C779-FDC1-7887FE5E15D6}
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {0C1CAB38-E822-42B6-9723-3937E9884FA9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AB1621D-7FAE-402A-B992-4ECB27A77A0A}
+	EndGlobalSection
+EndGlobal

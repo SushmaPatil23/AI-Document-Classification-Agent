@@ -1,0 +1,78 @@
+What Is Generative AI? Definition, Applications, and Impact
+Written by Coursera Staff • Updated on Dec 1, 2024
+Share
+Generative artificial intelligence (GenAI) can create certain types of images, text, videos, and other media by responding to prompts. Here’s what you should know about this growing field and tool.
+
+[Featured Image] A man works at a laptop computer in an office.
+Generative artificial intelligence (AI) is a type of AI that generates images, text, videos, and other media in response to inputted prompts.
+
+AI generators like ChatGPT and DALL-E2 are gaining worldwide popularity. These programs respond to user prompts. Submit a text prompt, and the generator will produce an output, whether a story or outline from ChatGPT or a monkey painted in a Victorian style by DALL-E2.
+
+Explore this growing field below, including how it works, uses cases, etc.
+
+What is generative AI?
+Generative AI, also called GenAI, allows users to input a variety of prompts to generate new content, such as text, images, videos, sounds, code, 3D designs, and other media. It “learns” and trains on documents and artefacts that already exist online.
+
+Generative AI evolves as it continues to train on more data. It operates on AI models and algorithms trained on large unlabeled data sets, requiring complex maths and lots of computing power. These data sets train the AI to predict outcomes in the same ways humans might act or develop independently.
+
+
+
+The rise of generative AI is mainly because people can now use natural language to prompt AI, so its use cases have multiplied. Across different industries, AI generators are now used as companions for writing, research, coding, designing, and more.
+
+How does generative AI work?
+Generative AI models use neural networks to identify patterns in existing data to generate new content. Trained on unsupervised and semi-supervised learning approaches, organisations can create foundation models from large, unlabeled data sets, forming a base for AI systems to perform tasks.
+
+Some examples of foundation models include LLMs, GANs, VAEs, and Multimodal, which power tools like ChatGPT, DALL-E, and more. ChatGPT draws data from GPT-3 and enables users to generate a story based on a prompt. Another foundation model, Stable Diffusion, allows users to create realistic images based on text input.
+
+Popular AI generators
+You can choose from several generative AI platforms with which to become familiar. You may find them helpful for automating specific processes in your workflow.
+
+
+ChatGPT: This language model has a foundation of GPT architecture that generates text that resembles something a human would produce. It's a helpful companion for research, strategy, and content creation.
+
+
+DALL-E2: This model generates images from text prompts, so creatives can create vibrant illustrations and concept art that are useful as an accompaniment to content marketing. 
+
+
+GitHub Copilot: This collaboration between GitHub and OpenAI is a coding companion, helping developers code faster and more intuitively. 
+
+Generative AI use cases
+Once you’ve decided which AI generator suits your needs, these use cases may help you get the creative juices flowing for ways generative AI can benefit you and your business.
+
+
+Writing or improving content by producing a draft text in a specific style or length 
+
+
+Adding subtitles or dubbing educational content, films, and other content in different languages
+
+
+Outlining briefs, CV, coursework, and more
+
+
+Receiving a generic code to edit or improve upon
+
+
+Summarising articles, emails, and reports
+
+
+Improving demonstration or explanation videos
+
+
+Creating music in a specific tone or style
+
+Generative AI has many use cases that can benefit how you work by speeding up the content creation process or reducing the effort put into crafting an initial outline for a survey or email. However, generative AI also has limitations that may cause concern if they go unregulated.
+
+Concerns about generative AI
+Concerns about ethics, misuse, and quality control accompany Generative AI’s popularity. Because it trains on existing sources, including those unverified on the internet, generative AI can provide misleading, inaccurate, and fake information. Even when a source is provided, that source might have incorrect information or be falsely linked. 
+
+Since generators such as ChatGPT allow humans to input prompts with everyday language, they have become easier to use—so much so that university students might use them to plagiarise or generate essays, and content creators may face accusations of stealing from original artists. Falsified information can make it easier to impersonate people for cyber attacks.
+
+
+Get an intro to generative AI
+GenAI uses neural networks to generate images, text, and other media from text prompts. It trains on large unlabeled datasets and has a variety of use cases, such as content creation, coding, and language translation. The more you learn about and understand its uses and the potential concerns surrounding it, such as ethics and misuse, the better prepared you’ll be to optimise your use of generative AI in your personal and professional life. 
+
+For a quick, one-hour introduction to generative AI, consider enrolling in Google Cloud’s Introduction to Generative AI. Learn what it is, how you can use it, and how it differs from other machine-learning methods.
+
+  
+
+To get deeper into generative AI, take DeepLearning.AI’s Generative AI with Large Language Models course and learn the steps of an LLM-based generative AI lifecycle. This course is best if you have experience coding in Python and understand the basics of machine learning.
